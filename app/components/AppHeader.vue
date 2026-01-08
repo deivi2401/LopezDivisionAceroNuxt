@@ -26,13 +26,14 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
 </script>
 
 <template>
-  <UHeader>
+  <UHeader title="Lopez Division Acero">
     <template #left>
       <NuxtLink to="/">
-        <AppLogo class="w-auto h-6 shrink-0" />
+        <!-- <AppLogo class="w-auto h-6 shrink-0" /> -->
+        <span>
+          Lopez Division Acero
+        </span>
       </NuxtLink>
-
-      <TemplateMenu />
     </template>
 
     <template #right>
@@ -43,8 +44,8 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
       />
 
       <UButton
-        label="Download App"
-        variant="subtle"
+        label="Descarga"
+        variant="solid"
         class="hidden lg:block"
       />
 
