@@ -32,10 +32,13 @@ useSeoMeta({
         container: 'md:pt-18 lg:pt-20',
         title: 'max-w-3xl mx-auto'
       }"
+      orientation="horizontal"
     >
-      <template #top>
-        <HeroBackground />
-      </template>
+      <img
+        src="/TrabajoInox.jpg"
+        alt="Lopez Division Acero"
+        class="rounded-lg shadow-2xl ring ring-default max-h-72 mx-auto object-cover"
+      />
 
       <template #title>
         <MDC
